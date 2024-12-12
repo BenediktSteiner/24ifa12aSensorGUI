@@ -18,5 +18,6 @@ void MyView_1::update()
 
 void MyView_1::notify()
 {
-
+    QString str = model ->getState();
+    qDebug << str;
 }
